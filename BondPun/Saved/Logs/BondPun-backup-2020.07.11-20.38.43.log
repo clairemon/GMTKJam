@@ -1,0 +1,952 @@
+﻿Log file open, 07/11/20 21:30:53
+LogInit: Display: Running engine for game: BondPun
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 1.693669
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-13594126
+LogInit: Engine Version: 4.25.1-13594126+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i5-7500 CPU @ 3.40GHz, GPU: NVIDIA GeForce GTX 1060 3GB
+LogInit: Compiled (64-bit): Jun  2 2020 02:10:36
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line:  -EpicPortal -epicusername=ClaireMon -epicuserid=5da6a67285124219bc212f6d9c85c970 -epiclocale=en
+LogInit: Base Directory: E:/Program Files (x86)/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/MyStuff/GameDev/GMTKJam/BondPun/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.07.11-20.30.54:049][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.07.11-20.30.54:049][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.07.11-20.30.54:049][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/MyStuff/GameDev/GMTKJam/BondPun/Saved/Config/Windows/Engine.ini]
+[2020.07.11-20.30.54:049][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.07.11-20.30.54:049][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [E:/MyStuff/GameDev/GMTKJam/BondPun/Saved/Config/Windows/Engine.ini]
+[2020.07.11-20.30.54:049][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/MyStuff/GameDev/GMTKJam/BondPun/Saved/Config/Windows/Engine.ini]
+[2020.07.11-20.30.54:049][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.07.11-20.30.54:049][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.07.11-20.30.54:049][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.07.11-20.30.54:049][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.07.11-20.30.54:049][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.07.11-20.30.54:049][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.07.11-20.30.54:049][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.07.11-20.30.54:049][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.07.11-20.30.54:049][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.07.11-20.30.54:049][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.07.11-20.30.54:049][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.07.11-20.30.54:049][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.07.11-20.30.54:049][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.07.11-20.30.54:049][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.07.11-20.30.54:049][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [E:/MyStuff/GameDev/GMTKJam/BondPun/Saved/Config/Windows/Engine.ini]
+[2020.07.11-20.30.54:049][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.07.11-20.30.54:049][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.07.11-20.30.54:049][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.07.11-20.30.54:049][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.07.11-20.30.54:049][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.07.11-20.30.54:049][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.07.11-20.30.54:049][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.07.11-20.30.54:049][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.07.11-20.30.54:049][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.07.11-20.30.54:049][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.07.11-20.30.54:049][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.07.11-20.30.54:049][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.07.11-20.30.54:049][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.07.11-20.30.54:049][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [E:/MyStuff/GameDev/GMTKJam/BondPun/Saved/Config/Windows/Engine.ini]
+[2020.07.11-20.30.54:049][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [E:/MyStuff/GameDev/GMTKJam/BondPun/Saved/Config/Windows/Engine.ini]
+[2020.07.11-20.30.54:053][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/MyStuff/GameDev/GMTKJam/BondPun/Saved/Config/Windows/Scalability.ini]
+[2020.07.11-20.30.54:053][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.07.11-20.30.54:053][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.07.11-20.30.54:053][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/MyStuff/GameDev/GMTKJam/BondPun/Saved/Config/Windows/Scalability.ini]
+[2020.07.11-20.30.54:053][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.07.11-20.30.54:053][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/MyStuff/GameDev/GMTKJam/BondPun/Saved/Config/Windows/Scalability.ini]
+[2020.07.11-20.30.54:053][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.07.11-20.30.54:053][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.07.11-20.30.54:053][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.07.11-20.30.54:053][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.07.11-20.30.54:053][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.07.11-20.30.54:053][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.07.11-20.30.54:053][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.07.11-20.30.54:053][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.07.11-20.30.54:053][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.07.11-20.30.54:053][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.07.11-20.30.54:053][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.07.11-20.30.54:053][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.07.11-20.30.54:053][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.07.11-20.30.54:053][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.07.11-20.30.54:053][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.07.11-20.30.54:053][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.07.11-20.30.54:053][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.07.11-20.30.54:053][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.07.11-20.30.54:053][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/MyStuff/GameDev/GMTKJam/BondPun/Saved/Config/Windows/Scalability.ini]
+[2020.07.11-20.30.54:053][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.07.11-20.30.54:053][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.07.11-20.30.54:053][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.07.11-20.30.54:053][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.07.11-20.30.54:053][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.07.11-20.30.54:053][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.07.11-20.30.54:053][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.07.11-20.30.54:053][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/MyStuff/GameDev/GMTKJam/BondPun/Saved/Config/Windows/Scalability.ini]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/MyStuff/GameDev/GMTKJam/BondPun/Saved/Config/Windows/Scalability.ini]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/MyStuff/GameDev/GMTKJam/BondPun/Saved/Config/Windows/Scalability.ini]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [E:/MyStuff/GameDev/GMTKJam/BondPun/Saved/Config/Windows/Scalability.ini]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.07.11-20.30.54:054][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.07.11-20.30.54:054][  0]LogInit: Selected Device Profile: [Windows]
+[2020.07.11-20.30.54:054][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.07.11-20.30.54:055][  0]LogHAL: Display: Platform has ~ 16 GB [17031639040 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.07.11-20.30.54:055][  0]LogInit: Going up to parent DeviceProfile []
+[2020.07.11-20.30.54:055][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/MyStuff/GameDev/GMTKJam/BondPun/Saved/Config/Windows/Scalability.ini]
+[2020.07.11-20.30.54:055][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.07.11-20.30.54:055][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.07.11-20.30.54:055][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/MyStuff/GameDev/GMTKJam/BondPun/Saved/Config/Windows/Scalability.ini]
+[2020.07.11-20.30.54:055][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.07.11-20.30.54:055][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/MyStuff/GameDev/GMTKJam/BondPun/Saved/Config/Windows/Scalability.ini]
+[2020.07.11-20.30.54:055][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.07.11-20.30.54:055][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.07.11-20.30.54:055][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.07.11-20.30.54:055][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.07.11-20.30.54:055][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.07.11-20.30.54:055][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.07.11-20.30.54:055][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.07.11-20.30.54:055][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.07.11-20.30.54:055][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.07.11-20.30.54:055][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.07.11-20.30.54:055][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.07.11-20.30.54:055][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.07.11-20.30.54:055][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.07.11-20.30.54:055][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.07.11-20.30.54:055][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.07.11-20.30.54:055][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.07.11-20.30.54:055][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.07.11-20.30.54:055][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.07.11-20.30.54:055][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/MyStuff/GameDev/GMTKJam/BondPun/Saved/Config/Windows/Scalability.ini]
+[2020.07.11-20.30.54:055][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.07.11-20.30.54:055][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.07.11-20.30.54:055][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.07.11-20.30.54:055][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.07.11-20.30.54:055][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.07.11-20.30.54:055][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.07.11-20.30.54:055][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.07.11-20.30.54:055][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.07.11-20.30.54:055][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.07.11-20.30.54:055][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.07.11-20.30.54:055][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.07.11-20.30.54:055][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.07.11-20.30.54:055][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.07.11-20.30.54:055][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.07.11-20.30.54:055][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.07.11-20.30.54:055][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.07.11-20.30.54:055][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.07.11-20.30.54:055][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.07.11-20.30.54:055][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.07.11-20.30.54:055][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.07.11-20.30.54:055][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.07.11-20.30.54:055][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.07.11-20.30.54:055][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.07.11-20.30.54:055][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.07.11-20.30.54:055][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.07.11-20.30.54:055][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.07.11-20.30.54:055][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.07.11-20.30.54:055][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.07.11-20.30.54:055][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.07.11-20.30.54:055][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.07.11-20.30.54:055][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/MyStuff/GameDev/GMTKJam/BondPun/Saved/Config/Windows/Scalability.ini]
+[2020.07.11-20.30.54:055][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.07.11-20.30.54:055][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.07.11-20.30.54:055][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.07.11-20.30.54:055][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.07.11-20.30.54:055][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.07.11-20.30.54:056][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.07.11-20.30.54:056][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.07.11-20.30.54:056][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.07.11-20.30.54:056][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.07.11-20.30.54:056][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/MyStuff/GameDev/GMTKJam/BondPun/Saved/Config/Windows/Scalability.ini]
+[2020.07.11-20.30.54:056][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.07.11-20.30.54:056][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.07.11-20.30.54:056][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.07.11-20.30.54:056][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.07.11-20.30.54:056][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.07.11-20.30.54:056][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.07.11-20.30.54:056][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.07.11-20.30.54:056][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.07.11-20.30.54:056][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.07.11-20.30.54:056][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.07.11-20.30.54:056][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.07.11-20.30.54:056][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.07.11-20.30.54:056][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.07.11-20.30.54:056][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.07.11-20.30.54:056][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.07.11-20.30.54:056][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.07.11-20.30.54:056][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.07.11-20.30.54:056][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.07.11-20.30.54:056][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.07.11-20.30.54:056][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.07.11-20.30.54:056][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.07.11-20.30.54:056][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.07.11-20.30.54:056][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.07.11-20.30.54:056][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.07.11-20.30.54:056][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.07.11-20.30.54:056][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.07.11-20.30.54:056][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/MyStuff/GameDev/GMTKJam/BondPun/Saved/Config/Windows/Scalability.ini]
+[2020.07.11-20.30.54:056][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.07.11-20.30.54:056][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.07.11-20.30.54:056][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [E:/MyStuff/GameDev/GMTKJam/BondPun/Saved/Config/Windows/Scalability.ini]
+[2020.07.11-20.30.54:056][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.07.11-20.30.54:056][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.07.11-20.30.54:056][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.07.11-20.30.54:056][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.07.11-20.30.54:056][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.07.11-20.30.54:056][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.07.11-20.30.54:056][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.07.11-20.30.54:056][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.07.11-20.30.54:057][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.07.11-20.30.54:057][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.07.11-20.30.54:057][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.07.11-20.30.54:057][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/MyStuff/GameDev/GMTKJam/BondPun/Saved/Config/Windows/Engine.ini]
+[2020.07.11-20.30.54:057][  0]LogInit: Computer: DESKTOP-0QHE6L9
+[2020.07.11-20.30.54:057][  0]LogInit: User: Claire
+[2020.07.11-20.30.54:057][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.07.11-20.30.54:057][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.07.11-20.30.54:057][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.07.11-20.30.54:057][  0]LogMemory: Platform Memory Stats for Windows
+[2020.07.11-20.30.54:057][  0]LogMemory: Process Physical Memory: 113.54 MB used, 113.55 MB peak
+[2020.07.11-20.30.54:057][  0]LogMemory: Process Virtual Memory: 95.36 MB used, 95.36 MB peak
+[2020.07.11-20.30.54:057][  0]LogMemory: Physical Memory: 9153.32 MB used,  7089.31 MB free, 16242.64 MB total
+[2020.07.11-20.30.54:057][  0]LogMemory: Virtual Memory: 5127.79 MB used,  134212600.00 MB free, 134217728.00 MB total
+[2020.07.11-20.30.54:068][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.07.11-20.30.54:101][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.07.11-20.30.54:102][  0]LogInit: Using OS detected language (en-US).
+[2020.07.11-20.30.54:102][  0]LogInit: Using OS detected locale (en-GB).
+[2020.07.11-20.30.54:104][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.07.11-20.30.54:280][  0]LogInit: Setting process to per monitor DPI aware
+[2020.07.11-20.30.54:347][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.07.11-20.30.54:347][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.07.11-20.30.54:555][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.07.11-20.30.54:555][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.07.11-20.30.54:555][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.07.11-20.30.54:555][  0]LogD3D11RHI: D3D11 adapters:
+[2020.07.11-20.30.54:613][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 3GB' (Feature Level 11_0)
+[2020.07.11-20.30.54:614][  0]LogD3D11RHI:       2988/0/8121 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.07.11-20.30.54:633][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2020.07.11-20.30.54:633][  0]LogD3D11RHI:       128/0/8121 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2020.07.11-20.30.54:635][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.07.11-20.30.54:635][  0]LogD3D11RHI:       0/0/8121 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.07.11-20.30.54:635][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.07.11-20.30.54:644][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.07.11-20.30.54:644][  0]LogD3D11RHI:     GPU DeviceId: 0x1c02 (for the marketing name, search the web for "GPU Device Id")
+[2020.07.11-20.30.54:644][  0]LogWindows: EnumDisplayDevices:
+[2020.07.11-20.30.54:644][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 3GB' (P:1 D:1)
+[2020.07.11-20.30.54:644][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2020.07.11-20.30.54:645][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2020.07.11-20.30.54:645][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2020.07.11-20.30.54:645][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:1)
+[2020.07.11-20.30.54:645][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2020.07.11-20.30.54:646][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2020.07.11-20.30.54:646][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2020.07.11-20.30.54:646][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 3GB
+[2020.07.11-20.30.54:646][  0]LogD3D11RHI:   Driver Version: 451.48 (internal:27.21.14.5148, unified:451.48)
+[2020.07.11-20.30.54:646][  0]LogD3D11RHI:      Driver Date: 6-21-2020
+[2020.07.11-20.30.54:646][  0]LogRHI: Texture pool is 2091 MB (70% of 2988 MB)
+[2020.07.11-20.30.54:688][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.07.11-20.30.54:690][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.07.11-20.30.54:690][  0]LogD3D11RHI: Async texture creation enabled
+[2020.07.11-20.30.54:690][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.07.11-20.30.54:708][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.07.11-20.30.55:002][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.07.11-20.30.55:022][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.07.11-20.30.55:022][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.07.11-20.30.55:022][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.07.11-20.30.55:022][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.07.11-20.30.55:022][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.07.11-20.30.55:022][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.07.11-20.30.55:022][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.07.11-20.30.55:022][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.07.11-20.30.55:022][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.07.11-20.30.55:022][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.07.11-20.30.55:045][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.07.11-20.30.55:045][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.07.11-20.30.55:054][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.07.11-20.30.55:062][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.07.11-20.30.55:071][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.07.11-20.30.55:079][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.07.11-20.30.55:088][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.07.11-20.30.55:097][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.07.11-20.30.55:106][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.07.11-20.30.55:132][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.07.11-20.30.55:132][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.07.11-20.30.55:146][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.07.11-20.30.55:146][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.07.11-20.30.55:155][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.07.11-20.30.55:164][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.07.11-20.30.55:173][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.07.11-20.30.55:181][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.07.11-20.30.55:181][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.07.11-20.30.55:189][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.07.11-20.30.55:244][  0]LogShaderCompilers: Guid format shader working directory is 0 characters bigger than the processId version (../../../../../MyStuff/GameDev/GMTKJam/BondPun/Intermediate/Shaders/WorkingDirectory/11116/).
+[2020.07.11-20.30.55:244][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Claire/AppData/Local/Temp/UnrealShaderWorkingDir/2778C4384B11AA25CAAB15A28EF6C6C4/'.
+[2020.07.11-20.30.55:244][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.07.11-20.30.55:245][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.07.11-20.30.55:245][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.07.11-20.30.56:029][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.07.11-20.30.56:080][  0]LogDerivedDataCache: Loaded boot cache 0.05s 76MB C:/Users/Claire/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.07.11-20.30.56:080][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Claire/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.07.11-20.30.56:080][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../MyStuff/GameDev/GMTKJam/BondPun/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.07.11-20.30.56:080][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.07.11-20.30.56:080][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../MyStuff/GameDev/GMTKJam/BondPun/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.07.11-20.30.56:080][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.07.11-20.30.56:091][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.07.11-20.30.56:091][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.07.11-20.30.56:091][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.07.11-20.30.56:092][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Claire/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.07.11-20.30.56:093][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.07.11-20.30.56:093][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.07.11-20.30.56:143][  0]LogSlate: Using FreeType 2.10.0
+[2020.07.11-20.30.56:143][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.07.11-20.30.56:172][  0]LogAssetRegistry: FAssetRegistry took 0.0024 seconds to start up
+[2020.07.11-20.30.56:392][  0]LogInit: Selected Device Profile: [Windows]
+[2020.07.11-20.30.56:512][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.07.11-20.30.56:512][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.07.11-20.30.56:512][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.07.11-20.30.56:512][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.07.11-20.30.56:512][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.07.11-20.30.56:530][  0]LogNetVersion: BondPun 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2471566475)
+[2020.07.11-20.30.56:984][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000021664E18340), frame # 0
+[2020.07.11-20.30.56:984][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021664D3BC40), frame # 0
+[2020.07.11-20.30.56:985][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021664DC8A00), frame # 0
+[2020.07.11-20.30.57:047][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.056134 seconds
+[2020.07.11-20.30.57:052][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.07.11-20.30.57:053][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.07.11-20.30.57:053][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.07.11-20.30.57:405][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.07.11-20.30.57:411][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.07.11-20.30.57:531][  0]SourceControl: Source control is disabled
+[2020.07.11-20.30.57:531][  0]SourceControl: Source control is disabled
+[2020.07.11-20.30.57:534][  0]SourceControl: Source control is disabled
+[2020.07.11-20.30.57:537][  0]SourceControl: Source control is disabled
+[2020.07.11-20.30.57:545][  0]SourceControl: Source control is disabled
+[2020.07.11-20.30.57:776][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.07.11-20.30.57:795][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.07.11-20.30.57:795][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.07.11-20.30.57:846][  0]LogOcInput: OculusInput pre-init called
+[2020.07.11-20.30.57:858][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.07.11-20.30.57:858][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.07.11-20.30.57:925][  0]LogEngine: Initializing Engine...
+[2020.07.11-20.30.57:927][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.07.11-20.30.57:927][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.07.11-20.30.57:928][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.07.11-20.30.58:060][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.07.11-20.30.58:067][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.07.11-20.30.58:067][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002166888D200), frame # 0
+[2020.07.11-20.30.58:067][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000216688D1800), frame # 0
+[2020.07.11-20.30.58:085][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.11-20.30.58:085][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.11-20.30.58:085][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.11-20.30.58:085][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.11-20.30.58:085][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.11-20.30.58:085][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.11-20.30.58:085][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.11-20.30.58:085][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.11-20.30.58:086][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.11-20.30.58:086][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.11-20.30.58:108][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.11-20.30.58:108][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.07.11-20.30.58:154][  0]LogAudioMixer: Display: Using Audio Device Headset Earphone (HyperX Virtual Surround Sound)
+[2020.07.11-20.30.58:156][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.07.11-20.30.58:158][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.07.11-20.30.58:158][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.07.11-20.30.58:159][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.07.11-20.30.58:160][  0]LogInit: FAudioDevice initialized.
+[2020.07.11-20.30.58:160][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.07.11-20.30.58:237][  0]LogDerivedDataCache: Saved boot cache 0.08s 76MB C:/Users/Claire/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.07.11-20.30.58:237][  0]LogInit: Texture streaming: Enabled
+[2020.07.11-20.30.58:254][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.07.11-20.30.58:254][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.07.11-20.30.58:256][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.07.11-20.30.58:311][  0]LogInit: Transaction tracking system initialized
+[2020.07.11-20.30.58:333][  0]BlueprintLog: New page: Editor Load
+[2020.07.11-20.30.58:406][  0]LocalizationService: Localization service is disabled
+[2020.07.11-20.30.58:552][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.07.11-20.30.58:552][  0]LogCook: Display: Mobile HDR setting 1
+[2020.07.11-20.30.58:668][  0]LogFileCache: Scanning file cache for directory 'E:/MyStuff/GameDev/GMTKJam/BondPun/Content/' took 0.00s
+[2020.07.11-20.30.58:904][  0]SourceControl: Source control is disabled
+[2020.07.11-20.30.58:904][  0]LogUnrealEdMisc: Loading editor; pre map load, took 8.123
+[2020.07.11-20.30.58:904][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.07.11-20.30.58:904][  0]LightingResults: New page: Lighting Build
+[2020.07.11-20.30.58:905][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.07.11-20.30.58:905][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.11-20.30.58:905][  0]MapCheck: New page: Map Check
+[2020.07.11-20.30.58:905][  0]LightingResults: New page: Lighting Build
+[2020.07.11-20.30.58:913][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002166888D200), frame # 0
+[2020.07.11-20.30.58:913][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000216688D1800), frame # 0
+[2020.07.11-20.30.58:913][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2020.07.11-20.30.58:965][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2020.07.11-20.30.58:965][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021657053E00), frame # 0
+[2020.07.11-20.30.58:965][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000216570A1BC0), frame # 0
+[2020.07.11-20.30.58:969][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.07.11-20.30.58:984][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2020.07.11-20.30.58:984][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.07.11-20.30.58:984][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.095ms to complete.
+[2020.07.11-20.30.58:984][  0]LogFileHelpers: Loading map 'Template_Default' took 0.080
+[2020.07.11-20.30.58:986][  0]LogUnrealEdMisc: Total Editor Startup Time, took 8.206
+[2020.07.11-20.30.59:128][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.11-20.30.59:135][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.11-20.30.59:142][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.11-20.30.59:149][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.11-20.30.59:155][  0]LogCollectionManager: Loaded 0 collections in 0.000892 seconds
+[2020.07.11-20.30.59:169][  0]LogFileCache: Scanning file cache for directory 'E:/MyStuff/GameDev/GMTKJam/BondPun/Saved/Collections/' took 0.00s
+[2020.07.11-20.30.59:169][  0]LogFileCache: Scanning file cache for directory 'E:/MyStuff/GameDev/GMTKJam/BondPun/Content/Developers/Claire/Collections/' took 0.00s
+[2020.07.11-20.30.59:169][  0]LogFileCache: Scanning file cache for directory 'E:/MyStuff/GameDev/GMTKJam/BondPun/Content/Collections/' took 0.00s
+[2020.07.11-20.30.59:169][  0]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 3427 classes and 821 folders.
+[2020.07.11-20.30.59:172][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.07.11-20.30.59:250][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.07.11-20.30.59:251][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
+[2020.07.11-20.30.59:338][  0]LogSlate: Took 0.000288 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.07.11-20.30.59:340][  0]LogSlate: Took 0.000219 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.07.11-20.30.59:344][  0]LogSlate: Took 0.000219 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.07.11-20.30.59:414][  0]LogRenderer: Reallocating scene render targets to support 1208x588 Format 10 NumSamples 1 (Frame:1).
+[2020.07.11-20.30.59:493][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.07.11-20.30.59:493][  0]LogLoad: (Engine Initialization) Total time: 8.71 seconds
+[2020.07.11-20.30.59:493][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.07.11-20.30.59:531][  0]LogAssetRegistry: Asset discovery search completed in 3.3596 seconds
+[2020.07.11-20.30.59:534][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2020.07.11-20.30.59:535][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.07.11-20.30.59:560][  0]LogSlate: Took 0.000145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.07.11-20.31.00:518][ 81]LogSlate: Took 0.000181 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.07.11-20.31.08:511][960]LogActorFactory: Actor Factory created SkyScraper1
+[2020.07.11-20.31.10:011][138]LogActorFactory: Actor Factory created SkyScraper1
+[2020.07.11-20.31.12:551][434]Cmd: DELETE
+[2020.07.11-20.31.12:551][434]Cmd: ACTOR DELETE
+[2020.07.11-20.31.12:552][434]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.07.11-20.31.12:560][434]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2020.07.11-20.31.12:562][434]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2020.07.11-20.31.15:047][692]LogAssetEditorSubsystem: Opening Asset editor for World /Game/GameLevel.GameLevel
+[2020.07.11-20.31.15:058][692]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2020.07.11-20.31.19:059][692]LogSlate: Window 'Save Content' being destroyed
+[2020.07.11-20.31.19:063][692]Cmd: MAP LOAD FILE="../../../../../MyStuff/GameDev/GMTKJam/BondPun/Content/GameLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.07.11-20.31.19:065][692]LightingResults: New page: Lighting Build
+[2020.07.11-20.31.19:065][692]LoadErrors: New page: Loading map: GameLevel.umap
+[2020.07.11-20.31.19:065][692]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2020.07.11-20.31.19:065][692]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.11-20.31.19:066][692]MapCheck: New page: Map Check
+[2020.07.11-20.31.19:066][692]LightingResults: New page: Lighting Build
+[2020.07.11-20.31.19:074][692]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021657053E00), frame # 1692
+[2020.07.11-20.31.19:074][692]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000216570A1BC0), frame # 1692
+[2020.07.11-20.31.19:075][692]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2020.07.11-20.31.19:149][692]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.07.11-20.31.19:149][692]LogAIModule: Creating AISystem for world GameLevel
+[2020.07.11-20.31.19:149][692]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002164C027C00), frame # 1692
+[2020.07.11-20.31.19:149][692]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002160A34E5C0), frame # 1692
+[2020.07.11-20.31.19:160][692]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2020.07.11-20.31.19:180][692]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.07.11-20.31.19:180][692]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.075ms to complete.
+[2020.07.11-20.31.19:180][692]LogFileHelpers: Loading map 'GameLevel' took 0.116
+[2020.07.11-20.31.27:991][196]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../MyStuff/GameDev/GMTKAssets/Building4.obj)
+[2020.07.11-20.31.28:004][196]LogFbx: Loading FBX Scene from ../../../../../MyStuff/GameDev/GMTKAssets/Building4.obj
+[2020.07.11-20.31.28:067][196]LogFbx: FBX Scene Loaded Succesfully
+[2020.07.11-20.31.36:024][196]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.07.11-20.31.36:199][196]LogFbx: Display: Triangulating static mesh Road4Way:Building4
+[2020.07.11-20.31.36:441][196]LogStaticMesh: Building static mesh Building4...
+[2020.07.11-20.31.36:525][196]LogStaticMesh: Built static mesh [0.08s] /Game/Meshes/Building4.Building4
+[2020.07.11-20.31.36:538][196]LogStaticMesh: Warning: Building4 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2020.07.11-20.31.36:538][196]LogStaticMesh: Warning: Building4 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2020.07.11-20.31.36:555][196]FBXImport: Warning: Building4 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2020.07.11-20.31.36:555][196]FBXImport: Warning: Building4 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2020.07.11-20.31.36:683][196]LogSlate: Took 0.000193 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.07.11-20.31.39:675][522]LogSlate: Window 'Message Log' being destroyed
+[2020.07.11-20.31.39:678][522]LogSlate: Window 'Message Log' being destroyed
+[2020.07.11-20.31.42:880][813]LogActorFactory: Actor Factory created Building4
+[2020.07.11-20.31.44:218][972]LogActorFactory: Actor Factory created Building4
+[2020.07.11-20.31.47:243][320]Cmd: DELETE
+[2020.07.11-20.31.47:243][320]Cmd: ACTOR DELETE
+[2020.07.11-20.31.47:246][320]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.07.11-20.31.47:254][320]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2020.07.11-20.31.47:255][320]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2020.07.11-20.32.34:008][790]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2020.07.11-20.32.35:646][790]LogSlate: Window 'Delete Assets' being destroyed
+[2020.07.11-20.32.35:717][790]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2020.07.11-20.32.39:409][910]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../MyStuff/GameDev/GMTKAssets/Building4.obj)
+[2020.07.11-20.32.39:419][910]LogFbx: Loading FBX Scene from ../../../../../MyStuff/GameDev/GMTKAssets/Building4.obj
+[2020.07.11-20.32.39:479][910]LogFbx: FBX Scene Loaded Succesfully
+[2020.07.11-20.32.45:337][910]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.07.11-20.32.45:383][910]LogFbx: Display: Triangulating static mesh Building4:Building4
+[2020.07.11-20.32.45:620][910]LogStaticMesh: Building static mesh Building4...
+[2020.07.11-20.32.45:709][910]LogStaticMesh: Built static mesh [0.09s] /Game/Meshes/Building4.Building4
+[2020.07.11-20.32.45:722][910]LogStaticMesh: Warning: Building4 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2020.07.11-20.32.45:722][910]LogStaticMesh: Warning: Building4 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2020.07.11-20.32.45:738][910]FBXImport: Warning: Building4 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2020.07.11-20.32.45:738][910]FBXImport: Warning: Building4 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2020.07.11-20.32.54:699][947]LogSlate: Window 'Message Log' being destroyed
+[2020.07.11-20.32.54:702][947]LogSlate: Window 'Message Log' being destroyed
+[2020.07.11-20.32.55:746][ 34]LogActorFactory: Actor Factory created Building4
+[2020.07.11-20.32.56:654][142]LogActorFactory: Actor Factory created Building4
+[2020.07.11-20.32.59:735][435]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Meshes/Building4.Building4
+[2020.07.11-20.33.00:153][435]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.07.11-20.33.00:153][435]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.11-20.33.00:355][435]LogRenderer: Reallocating scene render targets to support 1432x960 Format 10 NumSamples 1 (Frame:1).
+[2020.07.11-20.33.00:355][435]LogSlate: Took 0.000246 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.07.11-20.33.05:402][581]LogSlate: Window 'Save Asset As' being destroyed
+[2020.07.11-20.33.10:217][948]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Building4" FILE="../../../../../MyStuff/GameDev/GMTKJam/BondPun/Content/Meshes/Building4.uasset" SILENT=true
+[2020.07.11-20.33.10:241][948]LogSavePackage: Moving '../../../../../MyStuff/GameDev/GMTKJam/BondPun/Saved/Building406678B4A44F018616C169D8272E88717.tmp' to '../../../../../MyStuff/GameDev/GMTKJam/BondPun/Content/Meshes/Building4.uasset'
+[2020.07.11-20.33.10:252][948]AssetCheck: New page: Asset Save: Building4
+[2020.07.11-20.33.10:252][948]LogContentValidation: Display: Validating StaticMesh /Game/Meshes/Building4.Building4
+[2020.07.11-20.33.12:532][138]LogSlate: Window 'Building4' being destroyed
+[2020.07.11-20.33.12:550][138]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.07.11-20.33.12:550][138]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.11-20.33.15:767][500]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Building4)
+[2020.07.11-20.33.16:149][544]Cmd: DELETE
+[2020.07.11-20.33.16:149][544]Cmd: ACTOR DELETE
+[2020.07.11-20.33.16:151][544]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.07.11-20.33.16:160][544]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.07.11-20.33.16:163][544]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2020.07.11-20.33.21:066][ 25]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2020.07.11-20.33.22:652][181]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Meshes/BD5.BD5
+[2020.07.11-20.33.22:872][181]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 125 classes and 0 folders.
+[2020.07.11-20.33.23:727][181]LogSlate: Took 0.000261 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.07.11-20.33.29:919][598]BlueprintLog: New page: Compile BD5
+[2020.07.11-20.33.29:953][598]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2020.07.11-20.33.30:783][650]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/BD5" FILE="../../../../../MyStuff/GameDev/GMTKJam/BondPun/Content/Meshes/BD5.uasset" SILENT=true
+[2020.07.11-20.33.30:792][650]LogSavePackage: Moving '../../../../../MyStuff/GameDev/GMTKJam/BondPun/Saved/BD513BB9BE24ADECDB81CD590A3528F5D5B.tmp' to '../../../../../MyStuff/GameDev/GMTKJam/BondPun/Content/Meshes/BD5.uasset'
+[2020.07.11-20.33.30:807][650]AssetCheck: New page: Asset Save: BD5
+[2020.07.11-20.33.30:807][650]LogContentValidation: Display: Validating Blueprint /Game/Meshes/BD5.BD5
+[2020.07.11-20.33.31:687][720]LogSlate: Window 'BD5' being destroyed
+[2020.07.11-20.33.31:691][720]LogSlate: Window 'BD5' being destroyed
+[2020.07.11-20.33.31:703][720]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.07.11-20.33.31:704][720]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.11-20.33.32:863][846]LogEditorViewport: Clicking on Actor (LMB): BD1_C (BD1)
+[2020.07.11-20.33.39:004][524]LogEditorViewport: Clicking on Actor (context menu): BD1_C (BD1)
+[2020.07.11-20.33.46:521][286]LogEditorViewport: Clicking on Actor (context menu): BD1_C (BD1)
+[2020.07.11-20.33.59:284][668]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.07.11-20.34.07:134][521]LogEditorViewport: Clicking on Actor (LMB): BD3_C (BD11)
+[2020.07.11-20.34.09:792][760]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.07.11-20.34.11:027][876]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.07.11-20.34.12:529][ 28]LogEditorViewport: Clicking on Actor (context menu): BD3_C (BD11)
+[2020.07.11-20.34.16:574][395]Cmd: DELETE
+[2020.07.11-20.34.16:574][395]Cmd: ACTOR DELETE
+[2020.07.11-20.34.16:577][395]LogEditorActor: Deleted Actor: BD5_C
+[2020.07.11-20.34.16:605][395]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2020.07.11-20.34.16:610][395]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2020.07.11-20.34.17:313][468]LogEditorViewport: Clicking on Actor (LMB): BD3_C (BD11)
+[2020.07.11-20.34.18:104][558]LogEditorViewport: Clicking on Actor (context menu): BD3_C (BD11)
+[2020.07.11-20.34.20:999][867]EditorErrors: New page: Actor Reattachment
+[2020.07.11-20.34.22:688][ 67]Cmd: TRANSACTION UNDO
+[2020.07.11-20.34.22:688][ 67]LogEditorTransaction: Undo Replace Actor(s)
+[2020.07.11-20.34.22:717][ 67]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.07.11-20.34.23:595][ 67]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.878 s
+[2020.07.11-20.34.23:596][ 67]LogOutputDevice: Error: === Handled ensure: ===
+[2020.07.11-20.34.23:596][ 67]LogOutputDevice: Error: 
+[2020.07.11-20.34.23:596][ 67]LogOutputDevice: Error: Ensure condition failed: !InActorComponent->IsPendingKill() [File:D:/Build/++UE4+Licensee/Sync/Engine/Source/Editor/Kismet/Private/SSCSEditor.cpp] [Line: 6135]
+[2020.07.11-20.34.23:596][ 67]LogOutputDevice: Error: 
+[2020.07.11-20.34.23:596][ 67]LogOutputDevice: Error: Stack: 
+[2020.07.11-20.34.23:596][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffc393faf79 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.07.11-20.34.23:596][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffc3915cb02 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.07.11-20.34.23:596][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffc3920d141 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.07.11-20.34.23:596][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffc2aa91a87 UE4Editor-LevelEditor.dll!UnknownFunction []
+[2020.07.11-20.34.23:596][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffc2aa6c4b4 UE4Editor-LevelEditor.dll!UnknownFunction []
+[2020.07.11-20.34.23:596][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffc2aa3e2df UE4Editor-LevelEditor.dll!UnknownFunction []
+[2020.07.11-20.34.23:596][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffc2a942899 UE4Editor-LevelEditor.dll!UnknownFunction []
+[2020.07.11-20.34.23:596][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffc374a1be2 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.07.11-20.34.23:596][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffc374a1b50 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.07.11-20.34.23:596][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffc3748d07b UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.07.11-20.34.23:596][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffc37478ee2 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.07.11-20.34.23:596][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffc37464acc UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.07.11-20.34.23:596][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffc37511830 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.07.11-20.34.23:596][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffc37464041 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.07.11-20.34.23:596][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffc3745dee0 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.07.11-20.34.23:596][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffc37c96977 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.07.11-20.34.23:596][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffc1f455155 UE4Editor-MainFrame.dll!UnknownFunction []
+[2020.07.11-20.34.23:596][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffc1f45586e UE4Editor-MainFrame.dll!UnknownFunction []
+[2020.07.11-20.34.23:596][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffc3b3d2d61 UE4Editor-Slate.dll!UnknownFunction []
+[2020.07.11-20.34.23:596][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffc3b40b46a UE4Editor-Slate.dll!UnknownFunction []
+[2020.07.11-20.34.23:596][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffc1f462c8e UE4Editor-MainFrame.dll!UnknownFunction []
+[2020.07.11-20.34.23:596][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffc1f454fd5 UE4Editor-MainFrame.dll!UnknownFunction []
+[2020.07.11-20.34.23:596][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffc3b40d4fe UE4Editor-Slate.dll!UnknownFunction []
+[2020.07.11-20.34.23:596][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffc3b400eb6 UE4Editor-Slate.dll!UnknownFunction []
+[2020.07.11-20.34.23:596][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffc4fd97c25 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.07.11-20.34.23:596][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffc4fd85c87 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.07.11-20.34.23:596][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffc4fd9a609 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.07.11-20.34.23:596][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffc4fd817d0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.07.11-20.34.23:596][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffcec3e5c0d USER32.dll!UnknownFunction []
+[2020.07.11-20.34.23:596][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffcec3e5602 USER32.dll!UnknownFunction []
+[2020.07.11-20.34.23:596][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffc4fd9bb24 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.07.11-20.34.23:596][ 67]LogOutputDevice: Error: [Callstack] 0x00007ff6159568c4 UE4Editor.exe!UnknownFunction []
+[2020.07.11-20.34.23:596][ 67]LogOutputDevice: Error: [Callstack] 0x00007ff61596ba7c UE4Editor.exe!UnknownFunction []
+[2020.07.11-20.34.23:596][ 67]LogOutputDevice: Error: [Callstack] 0x00007ff61596bb5a UE4Editor.exe!UnknownFunction []
+[2020.07.11-20.34.23:596][ 67]LogOutputDevice: Error: [Callstack] 0x00007ff61597e31d UE4Editor.exe!UnknownFunction []
+[2020.07.11-20.34.23:596][ 67]LogOutputDevice: Error: [Callstack] 0x00007ff61598145a UE4Editor.exe!UnknownFunction []
+[2020.07.11-20.34.23:596][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffcecf47bd4 KERNEL32.DLL!UnknownFunction []
+[2020.07.11-20.34.23:596][ 67]LogOutputDevice: Error: [Callstack] 0x00007ffced7ace51 ntdll.dll!UnknownFunction []
+[2020.07.11-20.34.23:596][ 67]LogOutputDevice: Error: 
+[2020.07.11-20.34.23:603][ 67]LogStats:                SubmitErrorReport -  0.000 s
+[2020.07.11-20.34.25:232][ 67]LogStats:                    SendNewReport -  1.628 s
+[2020.07.11-20.34.25:232][ 67]LogStats:             FDebug::EnsureFailed -  2.515 s
+[2020.07.11-20.34.25:239][ 67]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.07.11-20.34.25:283][ 67]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.07.11-20.34.25:292][ 67]Cmd: DELETE
+[2020.07.11-20.34.25:293][ 67]Cmd: ACTOR DELETE
+[2020.07.11-20.34.25:296][ 67]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2020.07.11-20.34.25:312][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2020.07.11-20.34.25:315][ 67]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2020.07.11-20.34.25:316][ 67]LogEditorSelectUtils: Warning: SelectActor: The requested operation could not be completed because the actor has invalid flags. (Sky Sphere)
+[2020.07.11-20.34.25:327][ 67]LogEditorViewport: Clicking Background
+[2020.07.11-20.34.28:038][371]Cmd: TRANSACTION UNDO
+[2020.07.11-20.34.28:039][371]LogEditorTransaction: Undo Delete Actors
+[2020.07.11-20.34.44:247][ 73]Cmd: DELETE
+[2020.07.11-20.34.44:247][ 73]Cmd: ACTOR DELETE
+[2020.07.11-20.34.44:250][ 73]LogEditorActor: Deleted Actor: BD5_C
+[2020.07.11-20.34.44:268][ 73]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2020.07.11-20.34.44:273][ 73]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2020.07.11-20.34.45:347][166]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Meshes/Building3.Building3
+[2020.07.11-20.34.45:576][166]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2020.07.11-20.34.45:576][166]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.11-20.35.01:159][371]LogEditorViewport: Clicking on Actor (LMB): BD5_C (BD21)
+[2020.07.11-20.35.01:718][413]Cmd: DELETE
+[2020.07.11-20.35.01:718][413]Cmd: ACTOR DELETE
+[2020.07.11-20.35.01:723][413]LogEditorActor: Deleted Actor: BD5_C
+[2020.07.11-20.35.01:747][413]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2020.07.11-20.35.01:750][413]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2020.07.11-20.35.11:378][960]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Meshes/BD5.BD5
+[2020.07.11-20.35.16:709][290]BlueprintLog: New page: Compile BD5
+[2020.07.11-20.35.16:741][290]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2020.07.11-20.35.17:659][355]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/BD5" FILE="../../../../../MyStuff/GameDev/GMTKJam/BondPun/Content/Meshes/BD5.uasset" SILENT=true
+[2020.07.11-20.35.17:669][355]LogSavePackage: Moving '../../../../../MyStuff/GameDev/GMTKJam/BondPun/Saved/BD58429B9B64110CB0A94D422B52FCA0D3F.tmp' to '../../../../../MyStuff/GameDev/GMTKJam/BondPun/Content/Meshes/BD5.uasset'
+[2020.07.11-20.35.17:683][355]AssetCheck: New page: Asset Save: BD5
+[2020.07.11-20.35.17:683][355]LogContentValidation: Display: Validating Blueprint /Game/Meshes/BD5.BD5
+[2020.07.11-20.35.18:706][435]LogSlate: Window 'BD5' being destroyed
+[2020.07.11-20.35.18:710][435]LogSlate: Window 'BD5' being destroyed
+[2020.07.11-20.35.18:722][435]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2020.07.11-20.35.18:722][435]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.11-20.35.18:815][435]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2020.07.11-20.35.18:816][435]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.11-20.35.20:315][553]LogActorFactory: Actor Factory created Building4
+[2020.07.11-20.35.21:350][676]LogActorFactory: Actor Factory created Building4
+[2020.07.11-20.35.24:166][995]Cmd: TRANSACTION UNDO
+[2020.07.11-20.35.24:166][995]LogEditorTransaction: Undo Create Actors
+[2020.07.11-20.35.26:514][188]LogActorFactory: Actor Factory created Building4
+[2020.07.11-20.35.27:841][346]LogActorFactory: Actor Factory created Building4
+[2020.07.11-20.35.36:073][282]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.07.11-20.35.42:344][893]LogEditorFactories: Performing atomic reimport of [E:/MyStuff/GameDev/GMTKAssets/Road1TileCurve.obj]
+[2020.07.11-20.35.42:380][893]LogFbx: Loading FBX Scene from E:/MyStuff/GameDev/GMTKAssets/Road1TileCurve.obj
+[2020.07.11-20.35.42:383][893]LogFbx: FBX Scene Loaded Succesfully
+[2020.07.11-20.35.42:385][893]LogStaticMesh: Building static mesh Road1TileCurve...
+[2020.07.11-20.35.42:417][893]LogStaticMesh: Built static mesh [0.03s] /Engine/Transient.Road1TileCurve
+[2020.07.11-20.35.42:427][893]LogFbx: Display: Triangulating static mesh Road1TileCurve:Mesh
+[2020.07.11-20.35.42:464][893]LogStaticMesh: Building static mesh Road1TileCurve...
+[2020.07.11-20.35.42:468][893]LogStaticMesh: Built static mesh [0.00s] /Game/Meshes/Road1TileCurve.Road1TileCurve
+[2020.07.11-20.35.42:469][893]LogStaticMesh: Warning: Road1TileCurve has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2020.07.11-20.35.42:469][893]LogStaticMesh: Warning: Road1TileCurve has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2020.07.11-20.35.42:479][893]LogEditorFactories: -- imported successfully
+[2020.07.11-20.35.42:482][893]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.07.11-20.35.42:482][893]FBXImport: Warning: Road1TileCurve has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2020.07.11-20.35.42:482][893]FBXImport: Warning: Road1TileCurve has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2020.07.11-20.35.44:065][ 23]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameLevel" FILE="../../../../../MyStuff/GameDev/GMTKJam/BondPun/Content/GameLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.07.11-20.35.44:086][ 23]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2020.07.11-20.35.44:119][ 23]LogSavePackage: Moving '../../../../../MyStuff/GameDev/GMTKJam/BondPun/Saved/GameLevel7DF4B6F645E7ED6074230E960597CB34.tmp' to '../../../../../MyStuff/GameDev/GMTKJam/BondPun/Content/GameLevel.umap'
+[2020.07.11-20.35.44:141][ 23]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameLevel_BuiltData" FILE="../../../../../MyStuff/GameDev/GMTKJam/BondPun/Content/GameLevel_BuiltData.uasset" SILENT=true
+[2020.07.11-20.35.44:151][ 23]LogSavePackage: Moving '../../../../../MyStuff/GameDev/GMTKJam/BondPun/Saved/GameLevel_BuiltData9813F954462506810FABB0A35EFAE72B.tmp' to '../../../../../MyStuff/GameDev/GMTKJam/BondPun/Content/GameLevel_BuiltData.uasset'
+[2020.07.11-20.35.44:169][ 23]AssetCheck: New page: Asset Save: multiple assets
+[2020.07.11-20.35.44:169][ 23]LogContentValidation: Display: Validating World /Game/GameLevel.GameLevel
+[2020.07.11-20.35.44:169][ 23]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/GameLevel_BuiltData.GameLevel_BuiltData
+[2020.07.11-20.37.11:626][869]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../MyStuff/GameDev/GMTKAssets/Building5.obj)
+[2020.07.11-20.37.11:635][869]LogFbx: Loading FBX Scene from ../../../../../MyStuff/GameDev/GMTKAssets/Building5.obj
+[2020.07.11-20.37.11:696][869]LogFbx: FBX Scene Loaded Succesfully
+[2020.07.11-20.37.15:432][869]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.07.11-20.37.15:452][869]LogFbx: Display: Triangulating static mesh Building5:polySurface405
+[2020.07.11-20.37.15:690][869]LogStaticMesh: Building static mesh Building5...
+[2020.07.11-20.37.15:774][869]LogStaticMesh: Built static mesh [0.08s] /Game/Meshes/Building5.Building5
+[2020.07.11-20.37.15:786][869]LogStaticMesh: Warning: Building5 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2020.07.11-20.37.15:786][869]LogStaticMesh: Warning: Building5 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2020.07.11-20.37.15:803][869]FBXImport: Warning: Building5 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2020.07.11-20.37.15:803][869]FBXImport: Warning: Building5 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2020.07.11-20.37.17:592][ 64]LogSlate: Window 'Message Log' being destroyed
+[2020.07.11-20.37.17:596][ 64]LogSlate: Window 'Message Log' being destroyed
+[2020.07.11-20.37.18:701][151]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Meshes/Building5.Building5
+[2020.07.11-20.37.18:956][151]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2020.07.11-20.37.18:957][151]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.11-20.37.24:800][528]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Building5" FILE="../../../../../MyStuff/GameDev/GMTKJam/BondPun/Content/Meshes/Building5.uasset" SILENT=true
+[2020.07.11-20.37.24:824][528]LogSavePackage: Moving '../../../../../MyStuff/GameDev/GMTKJam/BondPun/Saved/Building59BB6ED6543DB35E88D19DAA62BF865F3.tmp' to '../../../../../MyStuff/GameDev/GMTKJam/BondPun/Content/Meshes/Building5.uasset'
+[2020.07.11-20.37.24:836][528]AssetCheck: New page: Asset Save: Building5
+[2020.07.11-20.37.24:836][528]LogContentValidation: Display: Validating StaticMesh /Game/Meshes/Building5.Building5
+[2020.07.11-20.37.27:923][779]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Building5" FILE="../../../../../MyStuff/GameDev/GMTKJam/BondPun/Content/Meshes/Building5.uasset" SILENT=true
+[2020.07.11-20.37.27:946][779]LogSavePackage: Moving '../../../../../MyStuff/GameDev/GMTKJam/BondPun/Saved/Building53B13C72A48BF07D8BFB2A7BFAC27FA0A.tmp' to '../../../../../MyStuff/GameDev/GMTKJam/BondPun/Content/Meshes/Building5.uasset'
+[2020.07.11-20.37.27:958][779]AssetCheck: New page: Asset Save: Building5
+[2020.07.11-20.37.27:958][779]LogContentValidation: Display: Validating StaticMesh /Game/Meshes/Building5.Building5
+[2020.07.11-20.37.30:590][984]LogSlate: Window 'Building5' being destroyed
+[2020.07.11-20.37.30:608][984]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2020.07.11-20.37.30:608][984]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.11-20.37.37:337][592]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2020.07.11-20.37.38:888][735]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Meshes/BD6.BD6
+[2020.07.11-20.37.52:333][640]BlueprintLog: New page: Compile BD6
+[2020.07.11-20.37.52:364][640]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2020.07.11-20.37.52:965][677]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/BD6" FILE="../../../../../MyStuff/GameDev/GMTKJam/BondPun/Content/Meshes/BD6.uasset" SILENT=true
+[2020.07.11-20.37.52:974][677]LogSavePackage: Moving '../../../../../MyStuff/GameDev/GMTKJam/BondPun/Saved/BD650F43CB84BF9B6386C9EF9AEC19DBBE0.tmp' to '../../../../../MyStuff/GameDev/GMTKJam/BondPun/Content/Meshes/BD6.uasset'
+[2020.07.11-20.37.52:988][677]AssetCheck: New page: Asset Save: BD6
+[2020.07.11-20.37.52:988][677]LogContentValidation: Display: Validating Blueprint /Game/Meshes/BD6.BD6
+[2020.07.11-20.37.53:487][712]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/BD6" FILE="../../../../../MyStuff/GameDev/GMTKJam/BondPun/Content/Meshes/BD6.uasset" SILENT=true
+[2020.07.11-20.37.53:505][712]LogSavePackage: Moving '../../../../../MyStuff/GameDev/GMTKJam/BondPun/Saved/BD6532400754E3B84F81E1CF38E5901B149.tmp' to '../../../../../MyStuff/GameDev/GMTKJam/BondPun/Content/Meshes/BD6.uasset'
+[2020.07.11-20.37.53:515][712]AssetCheck: New page: Asset Save: BD6
+[2020.07.11-20.37.53:515][712]LogContentValidation: Display: Validating Blueprint /Game/Meshes/BD6.BD6
+[2020.07.11-20.37.54:081][753]LogSlate: Window 'BD6' being destroyed
+[2020.07.11-20.37.54:087][753]LogSlate: Window 'BD6' being destroyed
+[2020.07.11-20.37.54:099][753]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2020.07.11-20.37.54:099][753]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.11-20.37.55:466][856]LogActorFactory: Actor Factory created Building5
+[2020.07.11-20.37.58:089][134]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Building4)
+[2020.07.11-20.37.59:755][325]Cmd: DELETE
+[2020.07.11-20.37.59:755][325]Cmd: ACTOR DELETE
+[2020.07.11-20.37.59:757][325]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.07.11-20.37.59:775][325]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2020.07.11-20.37.59:778][325]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2020.07.11-20.38.10:460][544]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.07.11-20.38.20:463][642]LogEditorViewport: Clicking on Actor (double click): BP_Sky_Sphere_C (Sky Sphere)
+[2020.07.11-20.38.23:937][ 45]LogEditorViewport: Clicking on Actor (LMB): BD6_C (BD22)
+[2020.07.11-20.38.32:383][ 26]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.07.11-20.38.41:229][675]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../MyStuff/GameDev/GMTKAssets/Building6.obj)
+[2020.07.11-20.38.41:253][675]LogFbx: Loading FBX Scene from ../../../../../MyStuff/GameDev/GMTKAssets/Building6.obj
+[2020.07.11-20.38.43:059][675]LogWindows: FPlatformMisc::RequestExit(1)
+[2020.07.11-20.38.43:059][675]LogCore: Engine exit requested (reason: Win RequestExit)
+[2020.07.11-20.38.43:088][675]Log file closed, 07/11/20 21:38:43
