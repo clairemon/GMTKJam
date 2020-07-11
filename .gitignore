@@ -92,3 +92,7 @@ Build/Android/res/*/*
 
 # End of https://www.toptal.com/developers/gitignore/api/unrealengine
 BondPun/Saved/Logs/BondPun.log
+BondPun/Saved/Autosaves/Game/Blueprints/CarPawn_BP_Auto2.uasset
+BondPun/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+BondPun/Saved/Config/Windows/Engine.ini
+BondPun/Saved/Logs/BondPun.log
